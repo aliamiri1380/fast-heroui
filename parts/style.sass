@@ -1,0 +1,119 @@
+
+// .xshadow-wrapper::before,
+// .xshadow-wrapper::after
+//     content: ''
+//     position: absolute
+//     top: 0
+//     bottom: 0
+//     width: 20px
+//     pointer-events: none
+//     z-index: 1
+
+// .xshadow-wrapper::before
+//     left: 0
+//     background: linear-gradient(to right, rgba(0, 0, 0, 1), transparent)
+
+// .xshadow-wrapper::after
+//     right: 0
+//     background: linear-gradient(to left, rgba(0, 0, 0, 1), transparent)
+
+// .xshadow-wrapper
+//     position: relative
+//     overflow: hidden
+
+// .scroll-container
+//     scrollbar-width: none
+//     -ms-overflow-style: none
+//     overflow-x: auto
+//     position: relative
+
+[contenteditable="true"]
+    outline: 0
+
+.settings_list_content *
+    box-shadow: none 
+    // background: transparent
+
+.ed
+    font-family: 'mikhak-ed'
+
+input[dir="ltr"]
+    @extend .ed
+
+.animate-5s
+    animation-duration: 5s
+
+.animate-2s
+    animation-duration: 2
+    
+
+
+div[role="menuitem"], div[data-radix-popover-content-wrapper], div[data-radix-menu-content] 
+    direction: rtl
+    cursor: pointer
+    // z-index: 51
+
+.fc-timegrid-more-link.fc-more-link
+    top: unset !important
+    box-shadow: none
+
+.fc-license-message
+    display: none
+
+.fc-popover
+    transform-origin: top right
+    animation: .3s modernFadeIn
+    border-radius: 12px
+
+.fc-media-screen
+    border-radius: 12px
+
+.fc-popover-header 
+    width: calc(100% - 2pc)
+    margin: .5pc auto 0 auto
+    // padding: 0 2pc
+    border-radius: 8px
+    .fc-popover-title
+        padding-right: 1pc
+    .fc-popover-close
+        transform: translateX(.5pc)
+.fc-popover-body
+    .fc-event
+        // direction: auto
+        border-radius: 8px
+        transition: .15s background
+
+
+@keyframes modernFadeIn
+    from 
+        opacity: 0
+        transform: translateY(8px) scale(0.75)
+        filter: blur(2px)
+    to
+        opacity: 1
+        transform: translateY(0) scale(1)
+        filter: blur(0)
+
+li[role='presentation'][data-slot="base"]
+    margin-bottom: 0
+// div[data-slot="content"] div[data-slot="base"]
+//     padding: 0
+
+div[role="dialog"] div[data-radix-popper-content-wrapper]
+    z-index: 999
+
+span[data-radix-focus-guard]
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    z-index: 99999
+
+.fc *
+    scrollbar-width: none
+    -ms-overflow-style: none
+    &::-webkit-scrollbar
+        display: none
+
+label:has(input[type="checkbox"])
+    padding: 0 !important
