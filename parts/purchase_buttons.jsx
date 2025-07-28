@@ -2,7 +2,7 @@
 
 import GridStack from "@/parts/grid_stack"
 import Button from "@/parts/button"
-import { LazyAPI } from "@/utils"
+import { LazyAPI } from "./utils"
 import Icon from "@/parts/icon"
 import Toman from "@/parts/toman"
 

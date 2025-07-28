@@ -2,7 +2,7 @@
 
 import Button from "@/parts/button"
 import Icon from "@/parts/icon"
-import { copyToClipBoard } from "@/utils"
+import { copyToClipBoard } from "./utils"
 import { Toaster } from "react-hot-toast"
 
 export default function ShareButtons({ data, page_type, params }) {

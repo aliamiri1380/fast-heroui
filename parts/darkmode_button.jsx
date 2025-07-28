@@ -4,7 +4,7 @@ import Button from "./button";
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
-import { setCookie } from "../utils";
+import { setCookie } from "./utils";
 
 
 export default (props) => {

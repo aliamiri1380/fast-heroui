@@ -1,4 +1,4 @@
-import { filter_keys } from "@/utils";
+import { filter_keys } from "./utils";
 import {Card, CardFooter, CardBody} from "@heroui/card";
 import { Image, Button as Button2 } from "@heroui/react";
 import Button from "./button";

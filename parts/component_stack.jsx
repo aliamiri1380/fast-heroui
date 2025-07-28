@@ -1,6 +1,6 @@
 import { cloneElement } from "react";
 import {Divider} from "@heroui/divider";
-import { filter_keys } from "@/src/utils";
+import { filter_keys } from "./utils";
 
 export default (props) => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 // import { ScrollShadow } from "@heroui/scroll-shadow";
-import { limit_text } from "@/utils";
+import { limit_text } from "./utils";
 import Circle from "./circle";
 import ScrollShadow from "./xscroll_shadow";
 

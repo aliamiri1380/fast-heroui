@@ -1,5 +1,5 @@
 import ComponentStack from "./component_stack";
-import { RenameObj, LazyAPI } from "@/utils";
+import { RenameObj, LazyAPI } from "./utils";
 import EmptyResult from "./empty_result";
 import { useEffect, useState } from "preact/hooks";
 

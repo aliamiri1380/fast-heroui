@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import SwipeableViews from 'react-swipeable-views';
-import Button from "@/src/parts/button"
+import Button from "./button"
 
 
 export default ({content}) => {
